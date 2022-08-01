@@ -6,9 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Demo/Prototype Materials
-      Demo.unity
-    guid: 735c40e4d7967d7458e6a4db48651d2a
+    path: Assets/Scenes/City.unity
+    guid: 21c9fea12fbf2424d8875ecc0057c2a2
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0aaadcfc1c697b44e85bd323f7e75b2d, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: d369454beb0c7424ba854ff6aefd1bb6, type: 2}
