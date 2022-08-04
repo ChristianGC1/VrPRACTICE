@@ -16,7 +16,6 @@ public class Zombie : MonoBehaviour
     {
         rbs = GetComponentsInChildren<Rigidbody>();
         agent = GetComponent<NavMeshAgent>();
-        //target = FindObjectOfType<UnityEngine.XR.Interaction.Toolkit.XRRig>().transform;
         target = FindObjectOfType<XROrigin>().transform;
         DisactivateRagdoll();
     }
