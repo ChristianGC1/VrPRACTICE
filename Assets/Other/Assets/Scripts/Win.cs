@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Win : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    void OnTriggerEnter(Collider collider)
     {
-        
+        Debug.Log("Collided!" + collider.gameObject.name);
+        if (collider.gameObject.CompareTag("Player"))
+        {
+            Finish();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    void Finish()
     {
-        
-    }
+        Debug.Log("Win!");
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+    }    
 }

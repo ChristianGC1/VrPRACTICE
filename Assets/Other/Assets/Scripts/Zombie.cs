@@ -27,7 +27,7 @@ public class Zombie : MonoBehaviour
         agent.SetDestination(target.position);
 
         if (Vector3.Distance(target.position, transform.position) < 0.5f)
-            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 
     public void Death()
